@@ -9,7 +9,7 @@ const body = document.getElementById("body")
 
 async function weather(){
     const input = document.getElementById("weatherInput").value
-    const fetc = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=e505550310548a009a4faff5098165a1`)
+    const fetc = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=API`)
     const data = await fetc.json()
 
   
